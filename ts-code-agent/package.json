@@ -1,0 +1,21 @@
+{
+  "name": "omni-agent",
+  "version": "1.0.0",
+  "description": "TypeScript coding agent powered by OpenAI SDK and OmniRoute",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.124.0",
+    "dotenv": "^16.6.1",
+    "openai": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}

@@ -1,6 +1,28 @@
+# Dependencies
 node_modules/
+
+# Build
 dist/
-.env
+build/
+*.tsbuildinfo
 *.js.map
-.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
 apik
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
